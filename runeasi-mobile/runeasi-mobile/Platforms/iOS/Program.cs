@@ -1,7 +1,7 @@
 ﻿using ObjCRuntime;
 using UIKit;
 
-namespace runeasi_mobile;
+namespace RunEasi;
 
 public class Program
 {

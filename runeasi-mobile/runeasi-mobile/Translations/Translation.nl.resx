@@ -1,0 +1,1049 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Wachtwoord</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="ForgotPassword" xml:space="preserve">
+    <value>wachtwoord vergeten?</value>
+  </data>
+  <data name="PracticeDashboard" xml:space="preserve">
+    <value>Dashboard Praktijk</value>
+  </data>
+  <data name="AddPatient" xml:space="preserve">
+    <value>Voeg nieuwe klant toe</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Naam</value>
+  </data>
+  <data name="LasName" xml:space="preserve">
+    <value>Achternaam</value>
+  </data>
+  <data name="DateOfBirth" xml:space="preserve">
+    <value>Geboortedatum</value>
+  </data>
+  <data name="Gender" xml:space="preserve">
+    <value>Geslacht</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>Registreer</value>
+  </data>
+  <data name="PatientsTracked" xml:space="preserve">
+    <value>Klanten getest</value>
+  </data>
+  <data name="ActiveSensors" xml:space="preserve">
+    <value>Actieve Sensoren</value>
+  </data>
+  <data name="RuneasiSessions" xml:space="preserve">
+    <value>Runeasi Sessies</value>
+  </data>
+  <data name="ManageMySensors" xml:space="preserve">
+    <value>BEHEER MIJN SENSOREN</value>
+  </data>
+  <data name="MyPatients" xml:space="preserve">
+    <value>Mijn Klanten</value>
+  </data>
+  <data name="SearchByName" xml:space="preserve">
+    <value>ZOEK OP NAAM</value>
+  </data>
+  <data name="LastRecording" xml:space="preserve">
+    <value>Laatste meting: {0}</value>
+  </data>
+  <data name="InfoAndKnowledge" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="RuneasiConnected" xml:space="preserve">
+    <value>{0} Verbonden</value>
+  </data>
+  <data name="Disconnected" xml:space="preserve">
+    <value>Niet Verbonden</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Bewaar</value>
+  </data>
+  <data name="Left" xml:space="preserve">
+    <value>LINKS</value>
+  </data>
+  <data name="Right" xml:space="preserve">
+    <value>RECHTS</value>
+  </data>
+  <data name="Man" xml:space="preserve">
+    <value>Man</value>
+  </data>
+  <data name="Woman" xml:space="preserve">
+    <value>Vrouw</value>
+  </data>
+  <data name="PatientDashboard" xml:space="preserve">
+    <value>Dashboard van</value>
+  </data>
+  <data name="BiofeedbackRunningScreen" xml:space="preserve">
+    <value>BIOFEEDBACK RUNNING QUALITY</value>
+  </data>
+  <data name="BiofeedbackWalkingScreen" xml:space="preserve">
+    <value>BIOFEEDBACK WALKING QUALITY</value>
+  </data>
+  <data name="BiofeedbackMetricScreen" xml:space="preserve">
+    <value>BIOFEEDBACK METRICS</value>
+  </data>
+  <data name="BackToList" xml:space="preserve">
+    <value>Andere Klanten</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Terug</value>
+  </data>
+  <data name="Sessions" xml:space="preserve">
+    <value>Sessies</value>
+  </data>
+  <data name="ImpactMagnitude" xml:space="preserve">
+    <value>Impact magnitude</value>
+  </data>
+  <data name="Impact" xml:space="preserve">
+    <value>Impact</value>
+  </data>
+  <data name="TotalImpact" xml:space="preserve">
+    <value>TOTALE IMPACT</value>
+  </data>
+  <data name="ImpactAvg" xml:space="preserve">
+    <value>Gem. Impact Magnitude</value>
+  </data>
+  <data name="DailyCumulativeImpact" xml:space="preserve">
+    <value>Dagelijkse Cumulatieve Impact</value>
+  </data>
+  <data name="MostRecentRecording" xml:space="preserve">
+    <value>Meest recente meting</value>
+  </data>
+  <data name="DynamicStability" xml:space="preserve">
+    <value>Dynamic Stability</value>
+  </data>
+  <data name="ImpactDuration" xml:space="preserve">
+    <value>Impact duration</value>
+  </data>
+  <data name="ImpactDurationAvg" xml:space="preserve">
+    <value>Gem. Impact duration</value>
+  </data>
+  <data name="GroundContact" xml:space="preserve">
+    <value>Grondcontact</value>
+  </data>
+  <data name="Duration" xml:space="preserve">
+    <value>Tijd</value>
+  </data>
+  <data name="Cadence" xml:space="preserve">
+    <value>Cadans</value>
+  </data>
+  <data name="CadenceAvg" xml:space="preserve">
+    <value>Gem. Cadans</value>
+  </data>
+  <data name="CadenceAvg2Lines" xml:space="preserve">
+    <value>Gem. Cadans</value>
+  </data>
+  <data name="Biofeedback" xml:space="preserve">
+    <value>Biofeedback</value>
+  </data>
+  <data name="RecordSession" xml:space="preserve">
+    <value>Remote sessie</value>
+  </data>
+  <data name="FilterByTag" xml:space="preserve">
+    <value>Filter op tag</value>
+  </data>
+  <data name="New" xml:space="preserve">
+    <value>Nieuw</value>
+  </data>
+  <data name="OngoingRecording" xml:space="preserve">
+    <value>Meting aan de gang</value>
+  </data>
+  <data name="SessionDetail" xml:space="preserve">
+    <value>DETAILS VAN DE SESSIE</value>
+  </data>
+  <data name="CompareSessions" xml:space="preserve">
+    <value>Vergelijk sessies</value>
+  </data>
+  <data name="SessionComparison" xml:space="preserve">
+    <value>Vergelijking van sessies</value>
+  </data>
+  <data name="ViewTagsAndNotes" xml:space="preserve">
+    <value>Tags &amp; Notities</value>
+  </data>
+  <data name="NewRecording" xml:space="preserve">
+    <value>NIEUW METING</value>
+  </data>
+  <data name="NewRecordingInfo" xml:space="preserve">
+    <value>Meting wordt gestart op</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>start</value>
+  </data>
+  <data name="SaveSummaryEvery" xml:space="preserve">
+    <value>Bewaar samenvatting elke</value>
+  </data>
+  <data name="DisplaySummaryEvery" xml:space="preserve">
+    <value>Geef samenvatting weer elke</value>
+  </data>
+  <data name="RecordingOn" xml:space="preserve">
+    <value>Meting op</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>stop</value>
+  </data>
+  <data name="RecordingDeviceNotInRange" xml:space="preserve">
+    <value>Geselecteerde sensor niet binnen het bereik</value>
+  </data>
+  <data name="SynchronizingWith" xml:space="preserve">
+    <value>Aan het synchronizeren met</value>
+  </data>
+  <data name="SynchronizingBiofeedbackInProgress" xml:space="preserve">
+    <value>Synchronizatie actief:</value>
+  </data>
+  <data name="SynchronizingBiofeedbackInProgressDetails" xml:space="preserve">
+    <value>Bewaar gegevens van</value>
+  </data>
+  <data name="SynchronizingBiofeedbackInProgressDetails2" xml:space="preserve">
+    <value>voor toekomstige analyses</value>
+  </data>
+  <data name="Seconds" xml:space="preserve">
+    <value>seconden</value>
+  </data>
+  <data name="RecordingInProgress" xml:space="preserve">
+    <value>METING ACTIEF</value>
+  </data>
+  <data name="SynchronizationInProgress" xml:space="preserve">
+    <value>SYNCHRONIZATIE ACTIEF</value>
+  </data>
+  <data name="TagsAndNotes" xml:space="preserve">
+    <value>Tags &amp; notities</value>
+  </data>
+  <data name="Tags" xml:space="preserve">
+    <value>Tags</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>Notities</value>
+  </data>
+  <data name="AddNote" xml:space="preserve">
+    <value>Voeg Notitie toe</value>
+  </data>
+  <data name="EditNote" xml:space="preserve">
+    <value>Bewerk notitie</value>
+  </data>
+  <data name="AddToNotes" xml:space="preserve">
+    <value>Voeg toe</value>
+  </data>
+  <data name="TagsCatalog" xml:space="preserve">
+    <value>Tags catalogus</value>
+  </data>
+  <data name="CreateTag" xml:space="preserve">
+    <value>Create Tag</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>Categorie</value>
+  </data>
+  <data name="AddToCatalog" xml:space="preserve">
+    <value>Voeg toe</value>
+  </data>
+  <data name="LoginIncorrect" xml:space="preserve">
+    <value>Login niet correct</value>
+  </data>
+  <data name="Connect" xml:space="preserve">
+    <value>Connecteer</value>
+  </data>
+  <data name="ChangeName" xml:space="preserve">
+    <value>Verander naam</value>
+  </data>
+  <data name="Connected" xml:space="preserve">
+    <value>Verbonden</value>
+  </data>
+  <data name="NotInRange" xml:space="preserve">
+    <value>Buiten bereik</value>
+  </data>
+  <data name="Information" xml:space="preserve">
+    <value>Informatie</value>
+  </data>
+  <data name="SensorNotConnected" xml:space="preserve">
+    <value>Sensor niet verbonden</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="CancelRecordingInfo" xml:space="preserve">
+    <value>Als je het scherm verlaat, wordt de meting niet bewaard.</value>
+  </data>
+  <data name="Leave" xml:space="preserve">
+    <value>Verlaat</value>
+  </data>
+  <data name="ContinueRecording" xml:space="preserve">
+    <value>Ga door met meten </value>
+  </data>
+  <data name="StopRecording" xml:space="preserve">
+    <value>STOP METING</value>
+  </data>
+  <data name="InfoAndKnowledgeTitle" xml:space="preserve">
+    <value>Informatie</value>
+  </data>
+  <data name="ImpactAndMovementCompensationMetrics" xml:space="preserve">
+    <value>Impact en bewegingscompensatie parameters</value>
+  </data>
+  <data name="RelativeValues" xml:space="preserve">
+    <value>Relatieve waarden</value>
+  </data>
+  <data name="AbsoluteValues" xml:space="preserve">
+    <value>Absolute waarden</value>
+  </data>
+  <data name="StartedRecordingActionInfo" xml:space="preserve">
+    <value>Je kan dit niet doen tijdens een meting</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Annuleer</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>Maak leeg</value>
+  </data>
+  <data name="Apply" xml:space="preserve">
+    <value>Pas toe</value>
+  </data>
+  <data name="DynStability" xml:space="preserve">
+    <value>Dyn Instability</value>
+  </data>
+  <data name="DynStabilityAvg" xml:space="preserve">
+    <value>GEM. DYNAMIC
+Instability</value>
+  </data>
+  <data name="GndContact" xml:space="preserve">
+    <value>Gnd Contact</value>
+  </data>
+  <data name="GndContactAvg" xml:space="preserve">
+    <value>Gem. Grond
+Contact</value>
+  </data>
+  <data name="EditPatient" xml:space="preserve">
+    <value>Bewerk Klant</value>
+  </data>
+  <data name="InternetConnectioError" xml:space="preserve">
+    <value>Kan geen verbinding maken met one Runeasi server. Gelieve te controleren dat je verbonden bent met het internet.</value>
+  </data>
+  <data name="ContactSupportMessage" xml:space="preserve">
+    <value>Er was een probleem met het uitvoeren van je verzoek. Gelieve support te contacteren.</value>
+  </data>
+  <data name="FirstSyncError" xml:space="preserve">
+    <value>Data kan niet gesynchroniseerd worden. Gelieve je internetverbinding te controleren. Je kan offline verder werken. We zullen je data later proberen te synchronizeren.</value>
+  </data>
+  <data name="LastSyncError" xml:space="preserve">
+    <value>Data kan niet gesynchroniseerd worden. Gelieve je internetverbinding te controleren. Alle lokale data wordt verwijderd wanneer je je afmeldt. Om er zeker van te zijn dat alle data gesynchroniseerd kan worden annuleer je best deze operatie en probeer je later opnieuw wanneer de verbinding met onze server hersteld is.</value>
+  </data>
+  <data name="SensorRemoveError" xml:space="preserve">
+    <value>Je kan het apparaat waarmee je verbonden bent niet verwijderen.</value>
+  </data>
+  <data name="RemoveRecordingInformation" xml:space="preserve">
+    <value>Weet je zeker dat je deze meting wilt verwijderen?</value>
+  </data>
+  <data name="RemovePatientInformation" xml:space="preserve">
+    <value>Weet je zeker dat je deze klant en al zijn data wilt verwijderen?</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Verwijder</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Meld af</value>
+  </data>
+  <data name="ReleaseLicense" xml:space="preserve">
+    <value>Geef Licentie vrij</value>
+  </data>
+  <data name="ClaimLicense" xml:space="preserve">
+    <value>Eis Licentie op</value>
+  </data>
+  <data name="EmptyTagNameError" xml:space="preserve">
+    <value>Je kan geen tag zonder naam toevoegen</value>
+  </data>
+  <data name="SomethingWentWrong" xml:space="preserve">
+    <value>Er ging iets fout.</value>
+  </data>
+  <data name="Disconnect" xml:space="preserve">
+    <value>Verbreek verbinding</value>
+  </data>
+  <data name="RefreshScanning" xml:space="preserve">
+    <value>Scan opnieuw</value>
+  </data>
+  <data name="Scanning" xml:space="preserve">
+    <value>Bezig met scannen...</value>
+  </data>
+  <data name="CancelRecording" xml:space="preserve">
+    <value>Weet je zeker dat je deze meting wil annuleren?</value>
+  </data>
+  <data name="ContinueLastRecording" xml:space="preserve">
+    <value>Wil je doorgaan met je laatste meting?</value>
+  </data>
+  <data name="ContinueLastRecordingSensorError" xml:space="preserve">
+    <value>Je bent niet verbonden met de sensor waarop de meting werd gestart.</value>
+  </data>
+  <data name="ContinueLastRecordingConectionError" xml:space="preserve">
+    <value>We kunnen geen verbinding maken met de juiste sensor.</value>
+  </data>
+  <data name="NoFreeLicensesAvailable" xml:space="preserve">
+    <value>Geen vrije licenties beschikbaar. Geef een licentie vrij en probeer opnieuw of ga door zonder de mogelijkheid om metingen te doen.</value>
+  </data>
+  <data name="TryAgain" xml:space="preserve">
+    <value>Probeer opnieuw</value>
+  </data>
+  <data name="Continue" xml:space="preserve">
+    <value>Ga door</value>
+  </data>
+  <data name="NoLicenseWarning" xml:space="preserve">
+    <value>Zonder licentie wordt de mogelijkheid om opnames te doen uitgeschakeld.</value>
+  </data>
+  <data name="NoLicenseInfo" xml:space="preserve">
+    <value>Geen licentie beschikbaar. Claim eerst een licentie om verbinding te kunnen maken met de RunEASI sensors.</value>
+  </data>
+  <data name="LocationInfo" xml:space="preserve">
+    <value>Zorg ervoor dat je dit apparaat toegang geeft tot je huidige locatie. </value>
+  </data>
+  <data name="CumulativeImpact" xml:space="preserve">
+    <value>Cumulatieve impact magnitude</value>
+  </data>
+  <data name="SensorConnectionError" xml:space="preserve">
+    <value>Er ging iets fout. Controleer de bluetooth verbinding en zorg ervoor dat de sensor zich binnen het bereik bevindt.</value>
+  </data>
+  <data name="SyncErrorTitle" xml:space="preserve">
+    <value>Er zijn lokale wijzigingen die nog niet gesynchronizeerd konden worden met de server.</value>
+  </data>
+  <data name="SyncErrorDescription" xml:space="preserve">
+    <value>Als je deze wijzigingen wilt synchronizeren, kies dan voor annuleer, zorg dat er een internet verbinding is en probeer om opnieuw uit te loggen. Anders kies dan voor Ga door.</value>
+  </data>
+  <data name="UpdateFirmwareInfo" xml:space="preserve">
+    <value>Een nieuwere software versie van de sensor is beschikbaar. Klik OK om je sensor te upgraden naar de laatste versie.</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Werk bij</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>Versie</value>
+  </data>
+  <data name="Progress" xml:space="preserve">
+    <value>Voortgang</value>
+  </data>
+  <data name="ResumeUpdateFirmwareInfo" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SeePlotSession" xml:space="preserve">
+    <value>Trends</value>
+  </data>
+  <data name="SessionDetails" xml:space="preserve">
+    <value>SESSIE TRENDS</value>
+  </data>
+  <data name="RelativeValue" xml:space="preserve">
+    <value>Relatieve waarden</value>
+  </data>
+  <data name="ShowAbsoluteValue" xml:space="preserve">
+    <value>Toon absolute waarden</value>
+  </data>
+  <data name="LeftPlotValue" xml:space="preserve">
+    <value>linker been</value>
+  </data>
+  <data name="RightPlotValue" xml:space="preserve">
+    <value>rechter been</value>
+  </data>
+  <data name="Excellent" xml:space="preserve">
+    <value>excellent</value>
+  </data>
+  <data name="Typical" xml:space="preserve">
+    <value>typisch</value>
+  </data>
+  <data name="Elevated" xml:space="preserve">
+    <value>verhoogd</value>
+  </data>
+  <data name="High" xml:space="preserve">
+    <value>hoog</value>
+  </data>
+  <data name="PlotLeftLegInfo" xml:space="preserve">
+    <value>o Asymmetrie Links</value>
+  </data>
+  <data name="PlotRightLegInfo" xml:space="preserve">
+    <value>o Asymmetrie Rechts</value>
+  </data>
+  <data name="SoftwareVersionDownloadError" xml:space="preserve">
+    <value>We konden de laatste nieuwe software versie niet downloaden. Gelieve later opnieuw te proberen.</value>
+  </data>
+  <data name="SoftwareDownloadError" xml:space="preserve">
+    <value>We konden de laatste software niet downloaden. Gelieve later opnieuw te proberen.</value>
+  </data>
+  <data name="Retry" xml:space="preserve">
+    <value>Probeer opnieuw</value>
+  </data>
+  <data name="PreviousUserSync" xml:space="preserve">
+    <value>Er zijn nog gegevens van de vorige gebruiker op dit apparaat die niet konden gesynchroniseerd worden. Als je doorgaat wordt alle data verwijderd. Om te synchronizeren, annuleer en meld je aan met de gegevens van de vorige gebruiker.</value>
+  </data>
+  <data name="PreviousUserName" xml:space="preserve">
+    <value>Vorige gebruiker: </value>
+  </data>
+  <data name="Reports" xml:space="preserve">
+    <value>Rapporten</value>
+  </data>
+  <data name="PreviousReports" xml:space="preserve">
+    <value>Vorige Rapporten</value>
+  </data>
+  <data name="NewReport" xml:space="preserve">
+    <value>Nieuw Rapport</value>
+  </data>
+  <data name="CustomReportName" xml:space="preserve">
+    <value>Aangepaste rapport naam</value>
+  </data>
+  <data name="RaportCreateInfo" xml:space="preserve">
+    <value>Rapport. Gegenereerd op</value>
+  </data>
+  <data name="EmptyReportListTip" xml:space="preserve">
+    <value>Selecteer meerdere sessies om een vergelijkingsrapport te genereren, selecteer 1 sessie voor een gedetailleerd rapport over die sessie.</value>
+  </data>
+  <data name="Report" xml:space="preserve">
+    <value>Rapport</value>
+  </data>
+  <data name="SelectSessionForReportInfo" xml:space="preserve">
+    <value>Klik op een sessie aan de linkerkant om ze aan het rapport toe te voegen.</value>
+  </data>
+  <data name="Discard" xml:space="preserve">
+    <value>Annuleer</value>
+  </data>
+  <data name="GenerateComparisonReport" xml:space="preserve">
+    <value>Genereer Vergelijkingsrapport</value>
+  </data>
+  <data name="GenerateSessionReport" xml:space="preserve">
+    <value>Genereer Sessierapport</value>
+  </data>
+  <data name="RemoveReportInfo" xml:space="preserve">
+    <value>Weet je zeker dat je dit rapport wilt verwijderen?</value>
+  </data>
+  <data name="ReportsNoInternetView" xml:space="preserve">
+    <value>Een internetverbinding is vereist om rapporten te kunnen genereren.</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Instellingen</value>
+  </data>
+  <data name="PracticeProfile" xml:space="preserve">
+    <value>Profiel van de praktijk</value>
+  </data>
+  <data name="PracticeName" xml:space="preserve">
+    <value>Naam van de praktijk</value>
+  </data>
+  <data name="PracticeLogo" xml:space="preserve">
+    <value>Logo van de praktijk</value>
+  </data>
+  <data name="LoadFromGallery" xml:space="preserve">
+    <value>Laad van de fotogallerij</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Bewerk</value>
+  </data>
+  <data name="License" xml:space="preserve">
+    <value>Licentie</value>
+  </data>
+  <data name="NoActiveLicense" xml:space="preserve">
+    <value>Geen actieve licenties</value>
+  </data>
+  <data name="ActiveLicense" xml:space="preserve">
+    <value>Actieve licentie</value>
+  </data>
+  <data name="UserId" xml:space="preserve">
+    <value>userId:</value>
+  </data>
+  <data name="DeviceId" xml:space="preserve">
+    <value>deviceId:</value>
+  </data>
+  <data name="Synchronization" xml:space="preserve">
+    <value>Synchronizatie</value>
+  </data>
+  <data name="LastSynchronizationDate" xml:space="preserve">
+    <value>Datum laatste synchronizatie</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="SynchronizationPending" xml:space="preserve">
+    <value>Synchronizatie mogelijk</value>
+  </data>
+  <data name="FullySync" xml:space="preserve">
+    <value>Volledig gesynchroniseerd</value>
+  </data>
+  <data name="SynchronizeNow" xml:space="preserve">
+    <value>Synchronizeer nu</value>
+  </data>
+  <data name="General" xml:space="preserve">
+    <value>Algemeen</value>
+  </data>
+  <data name="ApplicationVersion" xml:space="preserve">
+    <value>Versie applicatie</value>
+  </data>
+  <data name="TermsContidions" xml:space="preserve">
+    <value>Voorwaarden en condities</value>
+  </data>
+  <data name="PrivacyPolicy" xml:space="preserve">
+    <value>Privacy policy</value>
+  </data>
+  <data name="NeverSynchronized" xml:space="preserve">
+    <value>Nooit gesynchroniseerd</value>
+  </data>
+  <data name="CropImageInformation" xml:space="preserve">
+    <value>Gebruik sleep en zoom bewegingen op het logo indien het bijgesneden moet worden.</value>
+  </data>
+  <data name="SendDatabaseInfo" xml:space="preserve">
+    <value>Weet je zeker dat je de volledige database naar Runeasi wil versturen?</value>
+  </data>
+  <data name="SendDatabaseSuccess" xml:space="preserve">
+    <value>Database werd verzonden</value>
+  </data>
+  <data name="OpenPDFError" xml:space="preserve">
+    <value>Er is een fout opgetreden tijdens het openen van het bestand. Zorg ervoor dat je een app op je toestel hebt staan om PDF bestanden te openen (bv. Acrobat Reader).</value>
+  </data>
+  <data name="SavePDFError" xml:space="preserve">
+    <value>Er is een fout opgetreden bij het opslaan van het bestand.</value>
+  </data>
+  <data name="OpenGalleryNoInternet" xml:space="preserve">
+    <value>Het updaten van het logo van de praktijk vereist een actieve internetverbinding</value>
+  </data>
+  <data name="UpdateSensorInfoTitlePopup" xml:space="preserve">
+    <value>Een nieuwere versie van de sensor firmware is beschikbaar. </value>
+  </data>
+  <data name="UpdateSensorInfoPopup" xml:space="preserve">
+    <value>Wil je de sensor nu upgraden om gebruik te kunnen maken van de laatste nieuwe verbeteringen (+- 2 minuten)?</value>
+  </data>
+  <data name="BiofeedbackIncorrectDataHint" xml:space="preserve">
+    <value>Gelieve even na te kijken of de riem goed zit en de sensor niet ondersteboven bevestigd werd (het Runeasi logo moet leesbaar zijn van links naar rechts).</value>
+  </data>
+  <data name="BiofeedbackIncorrectDataHint2" xml:space="preserve">
+    <value>Sensor goed bevestigd en nog steeds geen data? Gelieve de sensor even opnieuw op te starten om het probleem te verhelpen.</value>
+  </data>
+  <data name="BiofeedbackIncorrectDataHint3" xml:space="preserve">
+    <value>Is de sensor van plaats veranderd? We tonen enkel maar data wanneer we een hoge nauwkeurigheid kunnen garanderen.</value>
+  </data>
+  <data name="BiofeedbackIncorrectDataHint4" xml:space="preserve">
+    <value>Spant de riem voldoende? Gelieve de meting even te stoppen, de riem een beetje aan te spannen en vervolgens een nieuwe sessie te starten. Dit zal de nauwkeurigheid waarmee de data verzameld kan worden verder verbeteren.</value>
+  </data>
+  <data name="Reboot" xml:space="preserve">
+    <value>Start Sensor opnieuw op</value>
+  </data>
+  <data name="RebootError" xml:space="preserve">
+    <value>Herstarten van de sensor mislukt</value>
+  </data>
+  <data name="RebootErrorTip" xml:space="preserve">
+    <value>We konden de sensor niet opnieuw opstarten. Gelieve binnen enkele seconden opnieuw te proberen, of overweeg een manuele reset door kort de batterij uit de sensor te halen en deze vervolgens terug te plaatsen.</value>
+  </data>
+  <data name="RebootSuccess" xml:space="preserve">
+    <value>Gelieve de sensor even te bewegen om deze klaar te maken voor analyse</value>
+  </data>
+  <data name="RemoveTagInfo" xml:space="preserve">
+    <value>Ben je zeker dat je deze tag wilt verwijderen? Deze zal van alle metingen verwijderd worden.</value>
+  </data>
+  <data name="Run" xml:space="preserve">
+    <value>Run</value>
+  </data>
+  <data name="Walk" xml:space="preserve">
+    <value>Walk</value>
+  </data>
+  <data name="Running" xml:space="preserve">
+    <value>lopen</value>
+  </data>
+  <data name="Walking" xml:space="preserve">
+    <value>wandelen</value>
+  </data>
+  <data name="CamparissonTypeError" xml:space="preserve">
+    <value>je kan enkel metingen van hetzelfde type met elkaar vergelijken</value>
+  </data>
+  <data name="FilterByType" xml:space="preserve">
+    <value>Filter op type</value>
+  </data>
+  <data name="SelectionRecordingCountError" xml:space="preserve">
+    <value>Je kan tot 5 metingen selecteren.</value>
+  </data>
+  <data name="NoPreviousReportsAvailable" xml:space="preserve">
+    <value>Geen vorige rapporten beschikbaar</value>
+  </data>
+  <data name="CreateReportInstruction" xml:space="preserve">
+    <value>Geef een titel in en klik NIEUW RAPPORT</value>
+  </data>
+  <data name="RemoveNoteQuestion" xml:space="preserve">
+    <value>Weet je zeker dat je deze notitie wilt verwijderen?</value>
+  </data>
+  <data name="PlotUnavailable" xml:space="preserve">
+    <value>Geen relatieve waarden beschikbaar voor deze parameter, gelieve over te schakelen naar absolute waarden om de trends van deze parameter te bekijken.</value>
+  </data>
+  <data name="CreateNewReport" xml:space="preserve">
+    <value>Maak nieuw rapport</value>
+  </data>
+  <data name="ReportGenerationFailed" xml:space="preserve">
+    <value>Genereren van rapport mislukt. Probeer opnieuw of neem contact op met ons support team.</value>
+  </data>
+  <data name="Sensor404Error" xml:space="preserve">
+    <value>Zorg ervoor dat de sensor binnen het bereik is en dat je de laatste nieuwe software versie hebt.</value>
+  </data>
+  <data name="LearningCenter" xml:space="preserve">
+    <value>Educatie platform</value>
+  </data>
+  <data name="GetFirmwareVersionError" xml:space="preserve">
+    <value>De huidige software versie kon niet achterhaald worden</value>
+  </data>
+  <data name="WalkingFeatureNeedUpdateSensor" xml:space="preserve">
+    <value>De huidige sensor software ondersteunt geen wandelanalyse, gelieve de sensor te updaten om wandelanalyse te activeren.</value>
+  </data>
+  <data name="FullScreen" xml:space="preserve">
+    <value>Volledig scherm</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Sluit</value>
+  </data>
+  <data name="LowBatteryLevelInfo" xml:space="preserve">
+    <value>De batterij van de sensor is bijna leeg.</value>
+  </data>
+  <data name="OlderNews" xml:space="preserve">
+    <value>Ouder nieuws</value>
+  </data>
+  <data name="NewsHeader" xml:space="preserve">
+    <value>Nieuws</value>
+  </data>
+  <data name="StartRecordingError" xml:space="preserve">
+    <value>Sensor voorbereiden voor remote sessie. Gelieve even te wachten om geen data te verliezen.</value>
+  </data>
+  <data name="StartRecordingErrorPopupMessage" xml:space="preserve">
+    <value>Gelieve OK te klikken om de sensor snel opnieuw op te starten om dit probleem te verhelpen.</value>
+  </data>
+  <data name="RebootTip" xml:space="preserve">
+    <value>Gelieve de sensor kort te bewegen om deze klaar te maken voor analyses.</value>
+  </data>
+  <data name="StopRecordingWithoutData" xml:space="preserve">
+    <value>Er konden geen loopparameters berekend worden. Gelieve een langere meting te doen.</value>
+  </data>
+  <data name="ContactSupport" xml:space="preserve">
+    <value>Contacteer support</value>
+  </data>
+  <data name="BluetootthDisableTip" xml:space="preserve">
+    <value>We kunnen geen verbinding maken via Bluetooth. Gelieve na te gaan dat Bluetooth op dit apparaat is ingeschakeld in de bluetooth instellingen.</value>
+  </data>
+  <data name="StopRecordingErrorMessage" xml:space="preserve">
+    <value>We konden op dit moment de meting niet stoppen. Gelieve binnen enkele seconden opnieuw te proberen door opnieuw op de stopknop te duwen.</value>
+  </data>
+  <data name="SyncInProgressHint" xml:space="preserve">
+    <value>Bezig met eerste data synchronizatie... (dit kan enkele minuten duren)</value>
+  </data>
+  <data name="NewAppVersionAvailableUpdate" xml:space="preserve">
+    <value>Een nieuwere versie van de app is beschikbaar. Gelieve de app te updaten voor een optimale gebruikerservaring.</value>
+  </data>
+  <data name="NewAppVersionAvailableForceUpdate" xml:space="preserve">
+    <value>We hebben enkele kritieke verbetering toegevoegd aan de app om je van een optimale ervaring te bezorgen. Gelieve de Runeasi app nu te updaten alvorens verder te gaan.</value>
+  </data>
+  <data name="StabilityMetrics" xml:space="preserve">
+    <value>Stability</value>
+  </data>
+  <data name="SpatioTemporalMetrics" xml:space="preserve">
+    <value>Spatio-temporeel</value>
+  </data>
+  <data name="OtherSummaryMetrics" xml:space="preserve">
+    <value>ANDERE STATISTIEKEN</value>
+  </data>
+  <data name="ImpactLoadingStats" xml:space="preserve">
+    <value>IMPACT LOADING</value>
+  </data>
+  <data name="BackToOverView" xml:space="preserve">
+    <value>Overzicht</value>
+  </data>
+  <data name="SessionRepot" xml:space="preserve">
+    <value>PDF rapport</value>
+  </data>
+  <data name="SeeDetails" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="SeeRecommendations" xml:space="preserve">
+    <value>Zie aanbevelingen</value>
+  </data>
+  <data name="RecommendationsImpactLoading" xml:space="preserve">
+    <value>aanbeveling VOOR HET VERBETEREN VAN IMPACT LOADING</value>
+  </data>
+  <data name="RecommendationsSymmetry" xml:space="preserve">
+    <value>aanbeveling VOOR HET VERBETEREN VAN SYMMETRIE</value>
+  </data>
+  <data name="RecommendationsDynamicStability" xml:space="preserve">
+    <value>aanbeveling VOOR HET VERBETEREN VAN DYNAMIC STABILITY</value>
+  </data>
+  <data name="WeakestLink" xml:space="preserve">
+    <value>ZWAKSTE SCHAKEL:</value>
+  </data>
+  <data name="Relevance" xml:space="preserve">
+    <value>RELEVANTIE:</value>
+  </data>
+  <data name="LinkedTo" xml:space="preserve">
+    <value>GELINKT AAN:</value>
+  </data>
+  <data name="Training" xml:space="preserve">
+    <value> training</value>
+  </data>
+  <data name="WeakestLinkIM" xml:space="preserve">
+    <value>Hoge impacten bereiken de lage rug tijdens het lopen.</value>
+  </data>
+  <data name="WeakestLinkIML" xml:space="preserve">
+    <value>Hogere impacten tijdens de landing op het LINKER been.</value>
+  </data>
+  <data name="WeakestLinkIMR" xml:space="preserve">
+    <value>Hogere impacten tijdens de landing op het RECHTER been.</value>
+  </data>
+  <data name="WeakestLinkID" xml:space="preserve">
+    <value>Vermogen waarmee impacten kunnen afgeremd worden wanneer ze zich doorheen de benen verplaatsen.</value>
+  </data>
+  <data name="WeakestLinkIDL" xml:space="preserve">
+    <value>Verminderd vermogen om impacten af te remmen doorheen het LINKER been.</value>
+  </data>
+  <data name="WeakestLinkIDR" xml:space="preserve">
+    <value>Verminderd vermogen om impacten af te remmen doorheen het RECHTER been.</value>
+  </data>
+  <data name="WeakestLinkDS" xml:space="preserve">
+    <value>Vermogen om zijwaartse bewegingen van de heupen te controleren.</value>
+  </data>
+  <data name="WeakestLinkDSL" xml:space="preserve">
+    <value>Verminderd vermogen om zijwaartse bewegingen van de heupen te controleren op het LINKER been.</value>
+  </data>
+  <data name="WeakestLinkDSR" xml:space="preserve">
+    <value>Verminderd vermogen om zijwaartse bewegingen van de heupen te controleren op het RECHTER been.</value>
+  </data>
+  <data name="RelevanceIM" xml:space="preserve">
+    <value>Hoger risico op blessure &amp; sneller optreden van vermoeidheid.</value>
+  </data>
+  <data name="RelevanceIML" xml:space="preserve">
+    <value>Hoger risico op blessure &amp; sneller optreden van vermoeidheid.</value>
+  </data>
+  <data name="RelevanceIMR" xml:space="preserve">
+    <value>Hoger risico op blessure &amp; sneller optreden van vermoeidheid.</value>
+  </data>
+  <data name="RelevanceID" xml:space="preserve">
+    <value>Hoger risico op blessure &amp; verminderde loopeconomie.</value>
+  </data>
+  <data name="RelevanceIDL" xml:space="preserve">
+    <value>Hoger risico op blessure &amp; verminderde loopeconomie.</value>
+  </data>
+  <data name="RelevanceIDR" xml:space="preserve">
+    <value>Hoger risico op blessure &amp; verminderde loopeconomie.</value>
+  </data>
+  <data name="RelevanceDS" xml:space="preserve">
+    <value>Hoger risico op blessure &amp; hoger energieverbruik.</value>
+  </data>
+  <data name="RelevanceDSL" xml:space="preserve">
+    <value>Hoger risico op blessure &amp; hoger energieverbruik.</value>
+  </data>
+  <data name="RelevanceDSR" xml:space="preserve">
+    <value>Hoger risico op blessure &amp; hoger energieverbruik.</value>
+  </data>
+  <data name="LinkedToIM" xml:space="preserve">
+    <value>Excentrische krachtproductie van de kuiten &amp; quadriceps.</value>
+  </data>
+  <data name="LinkedToIML" xml:space="preserve">
+    <value>Excentrische krachtproductie van de kuiten &amp; quadriceps.</value>
+  </data>
+  <data name="LinkedToIMR" xml:space="preserve">
+    <value>Excentrische krachtproductie van de kuiten &amp; quadriceps.</value>
+  </data>
+  <data name="LinkedToID" xml:space="preserve">
+    <value>Efficiëntie kinetische keten om impacten af te remmen.</value>
+  </data>
+  <data name="LinkedToIDL" xml:space="preserve">
+    <value>Onevenwicht in stretch-shortening cycle van onderste ledematen &amp; Efficiëntie kinetische keten om impacten af te remmen.</value>
+  </data>
+  <data name="LinkedToIDR" xml:space="preserve">
+    <value>Onevenwicht in stretch-shortening cycle van onderste ledematen &amp; Efficiëntie kinetische keten om impacten af te remmen.</value>
+  </data>
+  <data name="LinkedToDS" xml:space="preserve">
+    <value>Enkel proprioceptie en vermogen stabiliserende spieren om zijwaartse bewegingen te verminderen.</value>
+  </data>
+  <data name="LinkedToDSL" xml:space="preserve">
+    <value>Enkel proprioceptie en vermogen stabiliserende spieren om zijwaartse bewegingen te verminderen.</value>
+  </data>
+  <data name="LinkedToDSR" xml:space="preserve">
+    <value>Enkel proprioceptie en vermogen stabiliserende spieren om zijwaartse bewegingen te verminderen.</value>
+  </data>
+  <data name="TrainingIM" xml:space="preserve">
+    <value>"Impact Magnitude"</value>
+  </data>
+  <data name="TrainingIML" xml:space="preserve">
+    <value>"Impact Magnitude Symmetrie"</value>
+  </data>
+  <data name="TrainingIMR" xml:space="preserve">
+    <value>"Impact Magnitude Symmetrie"</value>
+  </data>
+  <data name="TrainingID" xml:space="preserve">
+    <value>"Impact Duration"</value>
+  </data>
+  <data name="TrainingIDL" xml:space="preserve">
+    <value>"Impact Duration Symmetrie"</value>
+  </data>
+  <data name="TrainingIDR" xml:space="preserve">
+    <value>"Impact Duration Symmetrie"</value>
+  </data>
+  <data name="TrainingDS" xml:space="preserve">
+    <value>"Dynamic Stability"</value>
+  </data>
+  <data name="TrainingDSL" xml:space="preserve">
+    <value>"Dynamic Stability Symmetrie"</value>
+  </data>
+  <data name="TrainingDSR" xml:space="preserve">
+    <value>"Dynamic Stability Symmetrie"</value>
+  </data>
+  <data name="SessionOverViewTitle" xml:space="preserve">
+    <value>Running Quality</value>
+  </data>
+  <data name="NoQualityProfileAvailable" xml:space="preserve">
+    <value>Geen kwaliteitsprofiel beschikbaar voor deze sessie</value>
+  </data>
+  <data name="SeeRuneasiFramework" xml:space="preserve">
+    <value>Zie Runeasi framework voor</value>
+  </data>
+  <data name="TrainingTitle" xml:space="preserve">
+    <value>TRAINING:</value>
+  </data>
+  <data name="LocationSwitchedOffAndroid" xml:space="preserve">
+    <value>Gelieve toegang tot locatiegegevens in te schakelen in de instellingen van dit toestel zodat de app de sensor kan vinden.</value>
+  </data>
+  <data name="FlightRatio" xml:space="preserve">
+    <value>Flight ratio</value>
+  </data>
+  <data name="BiofeedbackVisualizationHint" xml:space="preserve">
+    <value>Je Running quality profiel verschijnt zo meteen</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Tijd</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Taal</value>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>Engels</value>
+  </data>
+  <data name="Polish" xml:space="preserve">
+    <value>Pools</value>
+  </data>
+  <data name="Dutch" xml:space="preserve">
+    <value>Nederlands</value>
+  </data>
+  <data name="LeftSymbol" xml:space="preserve">
+    <value>L</value>
+  </data>
+  <data name="RightSymbol" xml:space="preserve">
+    <value>R</value>
+  </data>
+  <data name="SessionsNotExist" xml:space="preserve">
+    <value>Registreer ten minste 2 hardloopsessies om de voortgang bij te houden</value>
+  </data>
+  <data name="RunningQualityProgress" xml:space="preserve">
+    <value>Evolutie Running Quality </value>
+  </data>
+</root>

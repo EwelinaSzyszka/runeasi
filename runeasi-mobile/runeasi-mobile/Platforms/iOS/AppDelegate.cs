@@ -1,6 +1,6 @@
 ﻿using Foundation;
 
-namespace runeasi_mobile;
+namespace RunEasi;
 
 [Register("AppDelegate")]
 public class AppDelegate : MauiUIApplicationDelegate

@@ -1,6 +1,6 @@
-﻿using runeasi_mobile.Views;
+﻿using RunEasi.Views;
 
-namespace runeasi_mobile;
+namespace RunEasi;
 
 public partial class App : Application
 {

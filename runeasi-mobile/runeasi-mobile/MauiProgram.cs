@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 
-namespace runeasi_mobile;
+namespace RunEasi;
 
 public static class MauiProgram
 {

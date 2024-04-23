@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using Microsoft.Maui;
 using Microsoft.Maui.Controls;
 
-namespace runeasi_mobile.Views
+namespace RunEasi.Views
 {
     public partial class LoginPage : ContentPage
     {

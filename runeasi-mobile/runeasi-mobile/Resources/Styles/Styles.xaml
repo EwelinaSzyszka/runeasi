@@ -23,7 +23,25 @@
         <Setter Property="TextColor" Value="{StaticResource BlackColor}" />
     </Style>
 
+     <Style
+        x:Key="BarBlueBoxView"
+        TargetType="BoxView">
+        <Setter Property="Color" Value="{StaticResource LoginBarBlue}" />
+    </Style>
 
+     <Style
+        x:Key="BarLightBlueBoxView"
+        TargetType="BoxView">
+        <Setter Property="Color" Value="{StaticResource LoginBarLightBlue}" />
+    </Style>
+
+ <Style
+        x:Key="MainContainergrid"
+        TargetType="Grid">
+        <Setter Property="ColumnSpacing" Value="0" />
+        <Setter Property="RowDefinitions" Value="*,10,10,6*" />
+        <Setter Property="RowSpacing" Value="0" />
+    </Style>
 
 
     <Style TargetType="ActivityIndicator">
